@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: -webkit-linear-gradient(left, #fa78ff, #e100ff);
+}
+
+.area nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #fa78ff, #e100ff);
+    border-bottom: 1px solid #4d4d4d;
+    height: 75px;
+}
+
+.area nav ul li h2{
+    color: white;
+}
+
+.images img{
+    margin-top: 25px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.menu-1 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #e100ff, #fa78ff);
+    padding: 0px 30px;
+    box-shadow: 0 1px 10px black;
+    width: 325px;
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.menu-1 ul li i{
+    font-size: 35px;
+}
+
+.menu-1 ul li i:hover{
+    background-color: #d400ff;
+    padding: 8px 8px;
+    font-size: 32px;
+    border-radius: 15px;
+    transition: all 1.1s ease;
+    box-shadow: 0 1px 20px white;
+}
+
+.menu-2 ul{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #e100ff, #fa78ff);
+    padding: 0px 30px;
+    box-shadow: 0 1px 10px black;
+    width: 100%;
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.menu-2 ul li i{
+    font-size: 35px;
+}
+
+.menu-2 ul li i:hover{
+    background-color: #d400ff;
+    padding: 8px 8px;
+    font-size: 32px;
+    border-radius: 15px;
+    transition: all 1.1s ease;
+    box-shadow: 0 1px 20px white;
+}
+
+.container{
+    background: -webkit-linear-gradient(left, #fa78ff, #e100ff);
+    height: 620px;
+    overflow: scroll;
+}
+
+.area-item-con{
+    margin-top: 10px;
+    background-color: transparent;
+    height: 490px;
+    overflow-x: scroll;
+}
+
+.area-items ul{
+    margin-left: 5px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.area-items ul li{
+    margin-left: 10px;
+}
+
+.area-items ul li img{
+    border-radius: 15px;
+    box-shadow: 0 1px 8px #3f3f3f;
+}
+
+.title-1 h2{
+    margin-top: 8px;
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
